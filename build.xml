@@ -1,0 +1,122 @@
+<project name="CS494 S20 Assignment 4" basedir="." default="compile">
+
+    <property name="src.dir"     value="src"/>
+    <property name="build.dir"   value="build"/>
+    <property name="classes.dir" value="${build.dir}/classes"/>
+    <property name="jar.dir"     value="${build.dir}/jar"/>
+
+    <property name="lib.dir"      value="lib"/>
+    <property name="junit.jar"    value="${lib.dir}/junit-4.12.jar"/>
+    <property name="hamcrest.jar" value="${lib.dir}/hamcrest-2.1.jar"/>
+
+    <property name="test.dir"         value="test"/>
+    <property name="test.classes.dir" value="${build.dir}/test-classes"/>
+    <property name="report.dir"       value="${build.dir}/test-reports"/>
+
+    <path id="build.path">
+        <pathelement location="${classes.dir}" />
+    </path>
+
+    <path id="test.path">
+        <path refid="build.path" />
+        <pathelement location="${test.classes.dir}" />
+        <pathelement location="${junit.jar}" />
+        <pathelement location="${hamcrest.jar}" />
+    </path>
+
+    <target name="clean">
+        <delete dir="${build.dir}"/>
+    </target>
+
+    <target name="compile">
+        <mkdir dir="${classes.dir}"/>
+        <javac srcdir="${src.dir}" destdir="${classes.dir}" debug="true">
+            <classpath>
+                <path refid="build.path" />
+            </classpath>
+        </javac>
+    </target>
+
+    <target name="test-compile" depends="compile">
+        <mkdir dir="${test.classes.dir}"/>
+        <javac srcdir="${test.dir}" destdir="${test.classes.dir}" debug="true">
+            <classpath refid="test.path" />
+        </javac>
+    </target>
+
+    <target name="test-a1" depends="test-compile">
+        <mkdir dir="${report.dir}"/>
+        <junit printsummary="yes" haltonfailure="no" showoutput="true" timeout="15000">
+
+            <classpath refid="test.path" />
+
+            <formatter type="plain" />
+            <formatter type="xml" />
+
+            <batchtest fork="yes" todir="${report.dir}">
+                <fileset dir="${test.dir}">
+                    <include name="**/a1/**/*Test*.java" />
+                </fileset>
+            </batchtest>
+
+        </junit>
+
+        <junitreport todir="${report.dir}">
+            <fileset dir="${report.dir}">
+                <include name="TEST-*.xml" />
+            </fileset>
+            <report format="noframes" todir="${report.dir}" />
+        </junitreport>
+    </target>
+
+    <target name="test-a2" depends="test-compile">
+        <mkdir dir="${report.dir}"/>
+        <junit printsummary="yes" haltonfailure="no" showoutput="true" timeout="15000">
+
+            <classpath refid="test.path" />
+
+            <formatter type="plain" />
+            <formatter type="xml" />
+
+            <batchtest fork="yes" todir="${report.dir}">
+                <fileset dir="${test.dir}">
+                    <include name="**/a2/**/*Test*.java" />
+                </fileset>
+            </batchtest>
+
+        </junit>
+
+        <junitreport todir="${report.dir}">
+            <fileset dir="${report.dir}">
+                <include name="TEST-*.xml" />
+            </fileset>
+            <report format="noframes" todir="${report.dir}" />
+        </junitreport>
+    </target>
+
+    <target name="test-a3" depends="test-compile">
+        <mkdir dir="${report.dir}"/>
+        <junit printsummary="yes" haltonfailure="no" showoutput="true" timeout="15000">
+
+            <classpath refid="test.path" />
+
+            <formatter type="plain" />
+            <formatter type="xml" />
+
+            <batchtest fork="yes" todir="${report.dir}">
+                <fileset dir="${test.dir}">
+                    <include name="**/a3/**/*Test*.java" />
+                </fileset>
+            </batchtest>
+
+        </junit>
+
+        <junitreport todir="${report.dir}">
+            <fileset dir="${report.dir}">
+                <include name="TEST-*.xml" />
+            </fileset>
+            <report format="noframes" todir="${report.dir}" />
+        </junitreport>
+    </target>
+
+</project>

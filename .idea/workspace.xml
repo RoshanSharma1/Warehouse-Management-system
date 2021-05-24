@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d1b9324f-d1c3-490d-bb57-766460f60aca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Warehouse-Management-System-CS494.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/cs494-s20-a4-RoshanSharma1/META-INF/cs494-s20-a4-RoshanSharma1.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/AsynchronousVersion/Action$Operation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/AsynchronousVersion/Action.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/AsynchronousVersion/Item.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/AsynchronousVersion/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/AsynchronousVersion/Shelf$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/AsynchronousVersion/Shelf.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/AsynchronousVersion/Warehouse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/AsynchronousVersion/solution/SolutionItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/AsynchronousVersion/solution/SolutionResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/AsynchronousVersion/solution/SolutionShelf.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/AsynchronousVersion/solution/SolutionWarehouse$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/AsynchronousVersion/solution/SolutionWarehouse$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/AsynchronousVersion/solution/SolutionWarehouse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/CustomReaderWritterLock/Action$Direction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/CustomReaderWritterLock/Action.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/CustomReaderWritterLock/CS494ReadWriteLock$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/CustomReaderWritterLock/CS494ReadWriteLock$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/CustomReaderWritterLock/CS494ReadWriteLock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/CustomReaderWritterLock/Item.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/CustomReaderWritterLock/Shelf.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/CustomReaderWritterLock/Warehouse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/CustomReaderWritterLock/solution/ItemSolution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/CustomReaderWritterLock/solution/ShelfSolution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/CustomReaderWritterLock/solution/SolutionReadWriteLock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/CustomReaderWritterLock/solution/WarehouseSolution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/SynchronousVersion/Action$Direction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/SynchronousVersion/Action.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/SynchronousVersion/Item.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/SynchronousVersion/Shelf.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/SynchronousVersion/Warehouse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/SynchronousVersion/solution/ItemSolution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/SynchronousVersion/solution/ShelfSolution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/SynchronousVersion/solution/WarehouseSolution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/cs494-s20-a4-RoshanSharma1/META-INF/cs494-s20-a4-RoshanSharma1.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/AsynchronousVersion/Test01_AddItems.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/AsynchronousVersion/Test02_GetContentsShelf.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/AsynchronousVersion/Test03_RemoveItems.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/AsynchronousVersion/Test04_GetWarehouseContents.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/AsynchronousVersion/Test05_MoveSimple.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/AsynchronousVersion/Test06_Multithreaded.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/AsynchronousVersion/Test07_AsyncProgress.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/AsynchronousVersion/Test08_MoveComplex.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/CustomReaderWritterLock/Test01_SingleShelfLimits.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/CustomReaderWritterLock/Test02_SingleShelfContents.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/CustomReaderWritterLock/Test03_ShelvesLimits.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/CustomReaderWritterLock/Test04_ShelvesContents.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/CustomReaderWritterLock/Test06_MultithreadedAdd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/CustomReaderWritterLock/Test07_MultithreadedRemove.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/CustomReaderWritterLock/Test08_MultithreadedMove.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/SynchronousVersion/Test01_SingleShelfLimits.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/SynchronousVersion/Test02_SingleShelfContents.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/SynchronousVersion/Test03_ShelvesLimits.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/SynchronousVersion/Test04_ShelvesContents.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/SynchronousVersion/Test06_MultithreadedAdd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/SynchronousVersion/Test07_MultithreadedRemove.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/cs494-s20-a4-RoshanSharma1/edu/uic/cs494/SynchronousVersion/Test08_MultithreadedMove.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/uic/cs494/AsynchronousVersion/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/uic/cs494/AsynchronousVersion/solution/SolutionItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/uic/cs494/AsynchronousVersion/solution/SolutionResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/uic/cs494/AsynchronousVersion/solution/SolutionShelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/uic/cs494/AsynchronousVersion/solution/SolutionWarehouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/uic/cs494/CustomReaderWritterLock/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/uic/cs494/CustomReaderWritterLock/Shelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/uic/cs494/CustomReaderWritterLock/solution/ItemSolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/uic/cs494/SynchronousVersion/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/uic/cs494/SynchronousVersion/Shelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/uic/cs494/SynchronousVersion/solution/ShelfSolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/uic/cs494/SynchronousVersion/solution/WarehouseSolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/edu/uic/cs494/CustomReaderWritterLock/Test01_SingleShelfLimits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/edu/uic/cs494/CustomReaderWritterLock/Test03_ShelvesLimits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/edu/uic/cs494/CustomReaderWritterLock/Test04_ShelvesContents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/edu/uic/cs494/CustomReaderWritterLock/Test07_MultithreadedRemove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/edu/uic/cs494/CustomReaderWritterLock/Test08_MultithreadedMove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/edu/uic/cs494/SynchronousVersion/Test06_MultithreadedAdd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/uic/cs494/a1/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/uic/cs494/SynchronousVersion/Action.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/uic/cs494/a1/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/uic/cs494/a1/Shelf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/uic/cs494/a1/Warehouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/uic/cs494/SynchronousVersion/Warehouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/uic/cs494/a2/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/uic/cs494/CustomReaderWritterLock/Action.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/uic/cs494/a2/CS494ReadWriteLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/uic/cs494/CustomReaderWritterLock/CS494ReadWriteLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/uic/cs494/a2/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/uic/cs494/a2/Shelf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/uic/cs494/a2/Warehouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/uic/cs494/CustomReaderWritterLock/Warehouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/uic/cs494/a2/solution/ItemSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/uic/cs494/SynchronousVersion/solution/ItemSolution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/uic/cs494/a2/solution/ShelfSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/uic/cs494/CustomReaderWritterLock/solution/ShelfSolution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/uic/cs494/a2/solution/SolutionReadWriteLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/uic/cs494/CustomReaderWritterLock/solution/SolutionReadWriteLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/uic/cs494/a2/solution/WarehouseSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/uic/cs494/CustomReaderWritterLock/solution/WarehouseSolution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/uic/cs494/a3/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/uic/cs494/AsynchronousVersion/Action.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/uic/cs494/a3/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/uic/cs494/a3/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/uic/cs494/AsynchronousVersion/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/uic/cs494/a3/Shelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/uic/cs494/AsynchronousVersion/Shelf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/uic/cs494/a3/Warehouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/uic/cs494/AsynchronousVersion/Warehouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/edu/uic/cs494/a1/Test01_SingleShelfLimits.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/edu/uic/cs494/SynchronousVersion/Test01_SingleShelfLimits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/edu/uic/cs494/a1/Test02_SingleShelfContents.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/edu/uic/cs494/SynchronousVersion/Test02_SingleShelfContents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/edu/uic/cs494/a1/Test03_ShelvesLimits.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/edu/uic/cs494/SynchronousVersion/Test03_ShelvesLimits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/edu/uic/cs494/a1/Test04_ShelvesContents.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/edu/uic/cs494/SynchronousVersion/Test04_ShelvesContents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/edu/uic/cs494/a1/Test05_TestAudit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/edu/uic/cs494/a1/Test06_MultithreadedAdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/edu/uic/cs494/CustomReaderWritterLock/Test06_MultithreadedAdd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/edu/uic/cs494/a1/Test07_MultithreadedRemove.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/edu/uic/cs494/SynchronousVersion/Test07_MultithreadedRemove.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/edu/uic/cs494/a1/Test08_MultithreadedMove.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/edu/uic/cs494/SynchronousVersion/Test08_MultithreadedMove.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/edu/uic/cs494/a2/Test01_SingleThreadSingleShelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/edu/uic/cs494/CustomReaderWritterLock/Test02_SingleShelfContents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/edu/uic/cs494/a2/Test02_SingleThreadMultipleShelves.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/edu/uic/cs494/a2/Test03_MultithreadedAddRemove.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/edu/uic/cs494/a2/Test04_MultithreadedMove.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/edu/uic/cs494/a2/Test05_MultithreadedAddProgress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/edu/uic/cs494/a2/Test06_MultithreadedRemoveProgress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/edu/uic/cs494/a2/Test07_MultithreadedMoveProgress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/edu/uic/cs494/a3/Test01_AddItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/edu/uic/cs494/AsynchronousVersion/Test01_AddItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/edu/uic/cs494/a3/Test02_GetContentsShelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/edu/uic/cs494/AsynchronousVersion/Test02_GetContentsShelf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/edu/uic/cs494/a3/Test03_RemoveItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/edu/uic/cs494/AsynchronousVersion/Test03_RemoveItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/edu/uic/cs494/a3/Test04_GetWarehouseContents.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/edu/uic/cs494/AsynchronousVersion/Test04_GetWarehouseContents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/edu/uic/cs494/a3/Test05_MoveSimple.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/edu/uic/cs494/AsynchronousVersion/Test05_MoveSimple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/edu/uic/cs494/a3/Test06_Multithreaded.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/edu/uic/cs494/AsynchronousVersion/Test06_Multithreaded.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/edu/uic/cs494/a3/Test07_AsyncProgress.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/edu/uic/cs494/AsynchronousVersion/Test07_AsyncProgress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/edu/uic/cs494/a3/Test08_MoveComplex.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/edu/uic/cs494/AsynchronousVersion/Test08_MoveComplex.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1b1TqYTTcKhKNWg3OReBX3stn5V" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rsharma\IdeaProjects\cs494-s20-a4-RoshanSharma1\test\edu\uic\cs494\CustomReaderWritterLock" />
+      <recent name="C:\Users\rsharma\IdeaProjects\cs494-s20-a4-RoshanSharma1\test\edu\uic\cs494\SynchronousVersion" />
+      <recent name="C:\Users\rsharma\IdeaProjects\cs494-s20-a4-RoshanSharma1\test\edu\uic\cs494\AsynchronousVersion" />
+      <recent name="C:\Users\rsharma\IdeaProjects\cs494-s20-a4-RoshanSharma1\test\edu\uic\cs494" />
+      <recent name="C:\Users\rsharma\IdeaProjects\cs494-s20-a4-RoshanSharma1\src\edu\uic\cs494\AsynchronousVersion" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.All in cs494-s20-a4-RoshanSharma1">
+    <configuration name="All in cs494-s20-a4-RoshanSharma1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Warehouse-Management-System-CS494" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test04_MultithreadedMove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Warehouse-Management-System-CS494" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.uic.cs494.SynchronousVersion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.uic.cs494.SynchronousVersion" />
+      <option name="MAIN_CLASS_NAME" value="edu.uic.cs494.SynchronousVersion.Test04_MultithreadedMove" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test06_Multithreaded" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Warehouse-Management-System-CS494" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.uic.cs494.AsynchronousVersion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.uic.cs494.AsynchronousVersion" />
+      <option name="MAIN_CLASS_NAME" value="edu.uic.cs494.AsynchronousVersion.Test06_Multithreaded" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test07_MultithreadedMoveProgress" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Warehouse-Management-System-CS494" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.uic.cs494.SynchronousVersion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.uic.cs494.SynchronousVersion" />
+      <option name="MAIN_CLASS_NAME" value="edu.uic.cs494.SynchronousVersion.Test07_MultithreadedMoveProgress" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="edu.uic.cs494.SynchronousVersion in cs494-s20-a4-RoshanSharma1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Warehouse-Management-System-CS494" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.uic.cs494.SynchronousVersion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.uic.cs494.SynchronousVersion" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="Warehouse-Management-System-CS494" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="Warehouse-Management-System-CS494" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in cs494-s20-a4-RoshanSharma1" />
+        <item itemvalue="JUnit.edu.uic.cs494.SynchronousVersion in cs494-s20-a4-RoshanSharma1" />
+        <item itemvalue="JUnit.Test06_Multithreaded" />
+        <item itemvalue="JUnit.Test04_MultithreadedMove" />
+        <item itemvalue="JUnit.Test07_MultithreadedMoveProgress" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d1b9324f-d1c3-490d-bb57-766460f60aca" name="Default Changelist" comment="" />
+      <created>1587798790240</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587798790240</updated>
+      <workItem from="1621896854707" duration="2364000" />
+      <workItem from="1621899259641" duration="906000" />
+    </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1587880872568</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587880872568</updated>
+    </task>
+    <task id="LOCAL-00002" summary="more progress ( move still not working)">
+      <created>1588054596715</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588054596715</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fixed reentrant write lock issue">
+      <created>1588179729775</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588179729775</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <MESSAGE value="more progress ( move still not working)" />
+    <MESSAGE value="fixed reentrant write lock issue" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed reentrant write lock issue" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="422" y="83" key="FileChooserDialogImpl" timestamp="1621900259461">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="422" y="83" key="FileChooserDialogImpl/0.0.1280.680/-1920.522.1920.1040@0.0.1280.680" timestamp="1621900259461" />
+    <state width="1236" height="163" key="GridCell.Tab.0.bottom" timestamp="1621899247948">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1236" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.522.1920.1040@0.0.1280.680" timestamp="1621899247948" />
+    <state width="1236" height="163" key="GridCell.Tab.0.center" timestamp="1621899247948">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1236" height="163" key="GridCell.Tab.0.center/0.0.1280.680/-1920.522.1920.1040@0.0.1280.680" timestamp="1621899247948" />
+    <state width="1236" height="163" key="GridCell.Tab.0.left" timestamp="1621899247948">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1236" height="163" key="GridCell.Tab.0.left/0.0.1280.680/-1920.522.1920.1040@0.0.1280.680" timestamp="1621899247948" />
+    <state width="1236" height="163" key="GridCell.Tab.0.right" timestamp="1621899247948">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1236" height="163" key="GridCell.Tab.0.right/0.0.1280.680/-1920.522.1920.1040@0.0.1280.680" timestamp="1621899247948" />
+    <state x="234" y="75" key="Vcs.Push.Dialog.v2" timestamp="1621900278959">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="234" y="75" key="Vcs.Push.Dialog.v2/0.0.1280.680/-1920.522.1920.1040@0.0.1280.680" timestamp="1621900278959" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1621899579324">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/-1920.522.1920.1040@0.0.1280.680" timestamp="1621899579324" />
+    <state x="448" y="133" key="svn.repositoryBrowser" timestamp="1621900127435">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="448" y="133" key="svn.repositoryBrowser/0.0.1280.680/-1920.522.1920.1040@0.0.1280.680" timestamp="1621900127435" />
+  </component>
+</project>
